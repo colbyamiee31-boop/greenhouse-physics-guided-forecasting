@@ -1,8 +1,0 @@
-﻿item,status,note
-NASA forcing point,CURRENT,"40.54N, 81.30E"
-NASA source time,CURRENT,Hourly UTC
-Logger offset,CURRENT,UTC+6 empirical alignment
-greenhouse_model_master_v3_correct_nasa.csv,CURRENT,Canonical model-ready master
-greenhouse_model_normalized_v3_correct_nasa.csv,CURRENT,Canonical normalized data
-"37.2944N,79.8547E forcing",OBSOLETE,Do not use
-All v2 NASA-dependent numerical outputs,OBSOLETE,Do not cite
