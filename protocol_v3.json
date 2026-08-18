@@ -1,0 +1,82 @@
+{
+  "study": {
+    "latitude": 40.54,
+    "longitude": 81.3,
+    "location": "Alar, Xinjiang, China",
+    "nasa_time_standard": "UTC",
+    "logger_clock_offset_hours": 6
+  },
+  "sequence": {
+    "length_records": 72,
+    "forecast_horizons_h": [
+      1,
+      6,
+      24,
+      72
+    ],
+    "target_tolerance_min": 7,
+    "train_stride": 2,
+    "validation_stride": 1,
+    "test_stride": 1
+  },
+  "training": {
+    "single_seed": 20260817,
+    "five_seeds": [
+      20260817,
+      42,
+      1234,
+      777,
+      31415
+    ],
+    "lr": 0.001,
+    "batch_size_single_seed": 256,
+    "max_epochs_single_seed": 14,
+    "patience_single_seed": 4,
+    "batch_size_multiseed": 512,
+    "max_epochs_multiseed": 10,
+    "patience_multiseed": 3,
+    "grad_clip": 1.0
+  },
+  "physics": {
+    "timescales_h": [
+      1,
+      3,
+      6,
+      12,
+      24
+    ],
+    "selected_physics_h": 6,
+    "lambda_fixed_physics": 0.001,
+    "mass_state": {
+      "tau_air_h": 120,
+      "tau_out_h": 120,
+      "kG_mass": 0.0,
+      "gamma_init": 0.0
+    },
+    "effective_6h_coefficients": {
+      "aG": 2.338972,
+      "aM": 0.043365,
+      "aS": 0.238445
+    }
+  },
+  "nasa_stress_tests": {
+    "temperature_bias_C": [
+      -2,
+      -1,
+      1,
+      2
+    ],
+    "solar_scale": [
+      0.8,
+      0.9,
+      1.1,
+      1.2
+    ],
+    "wind_scale": [
+      0.5,
+      0.8,
+      1.2,
+      1.5
+    ]
+  }
+}

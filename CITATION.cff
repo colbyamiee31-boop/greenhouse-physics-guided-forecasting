@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or processed dataset, please cite the associated manuscript and this software archive."
+title: "Greenhouse Physics-Guided Forecasting under Structural Uncertainty: Reproducibility Package"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Pengyang
+    email: zpy19982222@163.com
+  - family-names: Li
+    given-names: Qi
+  - family-names: Du
+    given-names: Hongbin
+  - family-names: Liu
+    given-names: Yifei
+version: 2.0.0
+date-released: 2026-08-18
+abstract: >-
+  Reproducibility materials for greenhouse microclimate forecasting experiments using
+  recurrent neural networks, coarse-grained thermal physics diagnostics, gradient-conflict
+  analysis, NASA POWER boundary-forcing stress tests, and multi-seed statistical evaluation.

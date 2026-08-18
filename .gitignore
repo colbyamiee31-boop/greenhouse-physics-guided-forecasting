@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/
+venv/
+results/*.pt
+
+# Keep the GitHub repository lightweight.
+# Full processed data and archived result arrays belong in the DOI archive.
+data/*.csv
+data/*.npz
+results/*.npz

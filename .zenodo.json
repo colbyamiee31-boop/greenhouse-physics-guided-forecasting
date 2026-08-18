@@ -1,0 +1,33 @@
+{
+  "title": "Greenhouse Physics-Guided Forecasting under Structural Uncertainty: Reproducibility Package",
+  "upload_type": "software",
+  "description": "Code, processed v3 data, model-evaluation outputs, and reproducibility materials for greenhouse microclimate forecasting experiments using recurrent neural networks, coarse-grained thermal physics diagnostics, gradient-conflict analysis, NASA POWER boundary-forcing stress tests, and multi-seed statistical evaluation. The canonical NASA POWER point is 40.54°N, 81.30°E (Alar, Xinjiang, China).",
+  "creators": [
+    {
+      "name": "Zhang, Pengyang",
+      "affiliation": "Tarim University"
+    },
+    {
+      "name": "Li, Qi",
+      "affiliation": "Tarim University"
+    },
+    {
+      "name": "Du, Hongbin",
+      "affiliation": "Tarim University"
+    },
+    {
+      "name": "Liu, Yifei",
+      "affiliation": "Tarim University"
+    }
+  ],
+  "keywords": [
+    "greenhouse microclimate",
+    "physics-guided machine learning",
+    "LSTM",
+    "gradient conflict",
+    "thermal inertia",
+    "NASA POWER",
+    "reproducibility"
+  ],
+  "notes": "All NASA-dependent v2 outputs produced with 37.2944°N, 79.8547°E are obsolete. The final v3 analysis uses 40.54°N, 81.30°E and an empirically supported logger-clock alignment of UTC+6 h. The UTC+6 convention is not a civil-timezone assertion."
+}

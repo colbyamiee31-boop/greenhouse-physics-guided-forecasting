@@ -1,0 +1,24 @@
+DATA AVAILABILITY — choose ONE final version after the DOI is minted.
+
+OPTION A — full processed data + code released publicly
+--------------------------------------------------------
+The code, processed data, model-evaluation outputs, and reproducibility materials supporting
+this study are publicly available in Zenodo at https://doi.org/10.5281/zenodo.XXXXXXXX.
+The archived release documents the canonical NASA POWER forcing point (40.54°N, 81.30°E),
+the chronological data protocol, fixed random seeds, and the analysis scripts used to produce
+the reported results.
+
+OPTION B — code/results public, greenhouse data subject to sharing restrictions
+------------------------------------------------------------------------------
+The analysis code, model-evaluation outputs, and reproducibility materials supporting this
+study are publicly available in Zenodo at https://doi.org/10.5281/zenodo.XXXXXXXX.
+The processed greenhouse sensor data are available from the corresponding author upon
+reasonable request and subject to applicable institutional/data-sharing restrictions.
+NASA POWER data are available from the NASA POWER service; the archived workflow records
+the point used in this study (40.54°N, 81.30°E).
+
+PRE-DOI TEMPORARY WORDING
+-------------------------
+The authors have prepared a versioned reproducibility package containing the analysis code,
+processed v3 data, and frozen result files. A permanent repository DOI will be inserted in the
+final manuscript metadata once the public archive is approved by all authors.
